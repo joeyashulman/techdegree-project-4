@@ -3,7 +3,7 @@
 /*              Base styles                      */
 /* ============================================= */
 
-* {
+/* * {
   font-family: 'Lato', sans-serif;
   color: #777;
   box-sizing: border-box;
@@ -11,18 +11,18 @@
 
 p {
   line-height: 1.45em;
-}
+} */
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
 
-.headline-primary {
+/* .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
@@ -45,14 +45,14 @@ a {
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
   border-radius: 5px;
-}
+} */
 
 
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
 
-.container {
+/* .container {
   padding: 0 10px;
 }
 
@@ -120,14 +120,14 @@ a {
 
 .card {
   flex-basis: 100%;
-}
+} */
 
 
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
 
-.nav {
+/* .nav {
   padding-left: 0;
   flex-basis: 100%;
   display: flex;
@@ -148,14 +148,14 @@ a {
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
-}
+} */
 
 
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 
-.btn {
+/* .btn {
   margin-top: 15px;
   width: 100%;
   color: #fff;
@@ -183,14 +183,14 @@ a {
 
 .warning {
   background-color: #fd7856;
-}
+} */
 
 
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
 
-.form {
+/* .form {
   flex-basis: 100%;
 }
 
@@ -210,14 +210,14 @@ a {
   width:1px;
   height:1px;
   overflow:hidden;
-}
+} */
 
 
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
 
-.img-avatar {
+/* .img-avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -240,13 +240,13 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
 .container {
   max-width: 1400px;
@@ -347,4 +347,4 @@ a {
   margin-right: initial;
 }
 
-}
+} */

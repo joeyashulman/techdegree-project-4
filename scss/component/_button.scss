@@ -1,0 +1,34 @@
+.btn {
+    @include button;
+    &-default {
+        @extend .btn;
+        background-color: $link-color;
+    }
+    &-error {
+        @extend .btn;
+        background-color: $col-9-color;
+    }
+    &-info {
+        @extend .btn;
+        background-color: $col-1-color;
+    }
+    &-success {
+        @extend .btn;
+        background-color: $col-10-color;
+    }
+    &-warning {
+        @extend .btn;
+        background-color: $col-2-color;
+    }
+  }
+  
+  @media (min-width: $large) {
+    .btn {
+        padding: 10px 30px;
+      }
+      
+      .btn + .btn {
+        margin-left: 10px;
+      }
+
+  }
