@@ -1,11 +1,20 @@
 .container {
     padding: 0 10px;
+    @include large-screens {
+        max-width: 1400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
   }
   
 .row {
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
+    @include large-screens {
+        flex-direction: row;
+    }
 }
 
 [class^=col] {
@@ -14,6 +23,12 @@
     min-height: 25px;
     padding: 10px;
     border-radius: 5px;
+    @include large-screens {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        align-items: center;
+    }
 }
 
 .theme.col-1 {
@@ -68,30 +83,12 @@
     flex-basis: 100%;
 }
 
-@media (min-width: $large) {
-
-    .container {
-      max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+@include large-screens {
     
     .centered {
       display: block;
       margin-left: auto;
       margin-right: auto;
-    }
-    
-    .row {
-      flex-direction: row;
-    }
-    
-    [class^=col] {
-      display: flex;
-      justify-content: center;
-      margin-top: 0;
-      align-items: center;
     }
     
     [class^=col] + [class^=col] {

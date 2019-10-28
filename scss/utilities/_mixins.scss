@@ -7,3 +7,9 @@
     text-transform: uppercase;
     border-radius: 5px;
 }
+
+@mixin large-screens {
+    @media (min-width: $large) {
+        @content;
+    }
+}
